@@ -1,0 +1,28 @@
+{
+  "name": "amio-sdk-js",
+  "version": "4.4.2",
+  "description": "Multi-messenger javascript library for Amio.io API. https://amio.io",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:amio-io/amio-sdk-js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "mocha \"test/**/*.test.js\"",
+    "can-publish-nix": "npm info $npm_package_name version | npm-version-bump-checker"
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "debug": "3.1.0",
+    "ramda": "0.24.1"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "7.1.2",
+    "moment": "2.22.0",
+    "npm-version-bump-checker": "1.0.5"
+  }
+}
